@@ -10,7 +10,7 @@ export default function App() {
         </label>
         <label htmlFor="test">
           <input />
-          test
+          testsss
         </label>
       </div>
       <div class="Buttons">
