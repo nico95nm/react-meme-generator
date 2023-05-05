@@ -1,22 +1,27 @@
 import './App.css';
+import { useEffect, useState } from 'react';
+import { createRoot } from 'react-dom/client';
 
 export default function App() {
+
   return (
     <div className="App">
       <div className="input">
-        <label htmlFor="test">
-          test
+        <label>
+          Top text
           <input />
         </label>
-        <label htmlFor="test">
+        <div>
+           <label>
           <input />
-          testsss
-        </label>
+          Bottom text
+        </label></div>
+
       </div>
-      <div class="Buttons">
+      <div class="button">
         <button>Download</button>
       </div>
-      <div class="Generate">
+      <div class="MemeTemplate">
         <button>Meme Template</button>
       </div>
     </div>
