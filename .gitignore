@@ -1,7 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-node_modules/
-npm-debug.log*
-.DS_Store
+
 # dependencies
 /node_modules
 /.pnp
@@ -11,7 +9,11 @@ npm-debug.log*
 /coverage
 
 # production
-/build
+# /build
+# Changed from /build to /dist because this is default for
+# Netlify when deploying an app using `@upleveled/react-scripts`
+# Ref: https://github.com/upleveled/create-react-app/commit/ab165a178994751e837d2835b2a4dbcc48f6f709#
+/dist
 
 # misc
 .DS_Store

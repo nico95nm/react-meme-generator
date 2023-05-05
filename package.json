@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@upleveled/react-scripts": "5.0.5",
-    "fetch": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -35,10 +35,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^18.2.4",
+    "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.3",
-    "@types/testing-library__jest-dom": "^5.14.5",
-    "eslint-config-upleveled": "^4.1.9",
+    "eslint-config-upleveled": "^4.1.10",
     "stylelint": "^15.6.1",
     "stylelint-config-upleveled": "^1.0.2",
     "typescript": "^5.0.4"
