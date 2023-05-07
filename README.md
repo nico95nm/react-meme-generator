@@ -1,4 +1,8 @@
-####TODO####
+# React Meme Generator
+
+Generate meme and we can edit text
+
+# Meme Generator
 
 [x]Html/Css part
 --[x] Generate button
