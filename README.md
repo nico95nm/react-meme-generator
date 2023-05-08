@@ -8,6 +8,7 @@ Generate meme and we can edit text
 --[x] Generate button
 --[x] Download button
 --[x] Top input
+--[x] Put image in between
 --[x] Bottom input
 [x] Javascrpit
 --[] I want when I press meme button to generate new image

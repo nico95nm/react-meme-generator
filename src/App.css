@@ -1,13 +1,17 @@
 .App {
-  margin: 0;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+
+  /*   margin: 100px;
   background-color: grey;
-  padding: 40px;
-  height: 100vh;
+  padding-left: 0px;
+  height: 50vh;
   vertical-align: middle;
   display: inline-block;
-  /*   align-items: center;
- */
-  justify-content: center;
+  justify-content: center; */
 }
 /* .App > div {
   display: flex;
@@ -20,5 +24,13 @@
   width: 100px;
   height: 50px;
 } */
-.TextButton {
+.App,
+.Top {
+  text-align: center;
+}
+.ArrowLeft {
+  vertical-align: middle;
+}
+.ArrowRight {
+  text-align: right;
 }

@@ -9,15 +9,13 @@ import TopText from './TopText';
 export default function App() {
   return (
     <div className="App">
-      <div>
-        <div>
-          <TopText />
-        </div>
-        <div className="bot">
-          <BottomText />
-        </div>
+      <div className="Top">
+        <TopText />
       </div>
       <img src={Gandalf} alt="You shall not pass" />
+      <div className="bot">
+        <BottomText />
+      </div>
       {/*       <img src={MemeImage} alt="test" />
        */}{' '}
       <div className="Button">
@@ -25,6 +23,14 @@ export default function App() {
       </div>
       <div className="MemeTemplate">
         <button>Meme Template</button>
+        <div className="ArrowLeft">
+          <button>Old Photo</button>
+        </div>
+        <div className="ArrowRight">
+          <form method="get" action="">
+            {' '}
+          </form>
+        </div>
       </div>
     </div>
   );
