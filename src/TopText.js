@@ -7,23 +7,20 @@ export default function InputText() {
   return (
     <form
       onSubmit={(event) => {
-        event.preventDefault();
+        event.preventDefault('https://api.memegen.link/top/');
       }}
     >
       <span>{label}</span>
       <input
+        type="name"
+        name="name"
+        placeholder="Top Text"
         value={textInput}
         onChange={(event) => {
           setTextInput(event.currentTarget.value);
+          setLabel(event.currentTarget.value);
         }}
       />
-      <button
-        onClick={() => {
-          setLabel(textInput);
-        }}
-      >
-        Top text{' '}
-      </button>
     </form>
   );
 }

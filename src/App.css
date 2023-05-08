@@ -4,33 +4,4 @@
   border: 3px solid green;
   padding: 10px;
   text-align: center;
-
-  /*   margin: 100px;
-  background-color: grey;
-  padding-left: 0px;
-  height: 50vh;
-  vertical-align: middle;
-  display: inline-block;
-  justify-content: center; */
-}
-/* .App > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 40px;
-  margin-bottom: 24px;
-  width: 100px;
-  height: 50px;
-} */
-.App,
-.Top {
-  text-align: center;
-}
-.ArrowLeft {
-  vertical-align: middle;
-}
-.ArrowRight {
-  text-align: right;
 }

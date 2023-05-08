@@ -2,8 +2,7 @@ import './App.css';
 /* import { useState } from 'react';
  */
 import BottomText from './BottomText';
-import Gandalf from './Img/Gandalf.jpg';
-import MemeImage from './MemeImage';
+import Download from './Download';
 import TopText from './TopText';
 
 export default function App() {
@@ -12,25 +11,25 @@ export default function App() {
       <div className="Top">
         <TopText />
       </div>
-      <img src={Gandalf} alt="You shall not pass" />
+      <div className="img">
+        {/*           <img{`https://api.memegen.link/images/${template}/${toptext}/${BottomText}.jpge`}/>
+         */}{' '}
+        <img
+          src="https://api.memegen.link/images/random.jpg"
+          alt="random"
+          width="500"
+          height="333"
+        />
+      </div>
       <div className="bot">
         <BottomText />
       </div>
-      {/*       <img src={MemeImage} alt="test" />
-       */}{' '}
+
       <div className="Button">
         <button>Download</button>
       </div>
       <div className="MemeTemplate">
         <button>Meme Template</button>
-        <div className="ArrowLeft">
-          <button>Old Photo</button>
-        </div>
-        <div className="ArrowRight">
-          <form method="get" action="">
-            {' '}
-          </form>
-        </div>
       </div>
     </div>
   );
